@@ -1,4 +1,4 @@
-name: template
+name: jellyfin
 channels:
   - defaults
   - conda-forge
@@ -7,5 +7,6 @@ dependencies:
   - python
   - pip
   - gh
+  - make
   - pip:
       - -r requirements.txt
