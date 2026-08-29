@@ -7,4 +7,4 @@ ifneq (,$(wildcard .env))
 endif
 
 node:
-	conda run -n jellyfin nodeenv -p
+	conda run -n $(conda_name) nodeenv -p
